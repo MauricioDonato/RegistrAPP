@@ -11,12 +11,12 @@
     <h1>Datos del alumno</h1>
   </ion-text>
   <ion-item>
-    <ion-label>Nombre usuario:</ion-label>
-    <ion-input placeholder="Ej: Joshua1234" #nombre></ion-input>
+    <ion-label>Nombre de alumno:</ion-label>
+    <ion-input placeholder="Ej: Joshua Ramirez" #nombre></ion-input>
   </ion-item>
   
   <ion-item>
-    <ion-label >Contraseña:</ion-label>
+    <ion-label >contraseña:</ion-label>
     <ion-input type="password" placeholder="contraseña" #contraseña></ion-input>
   </ion-item>
 
@@ -24,8 +24,5 @@
     <ion-button expand="block" shape="round" >
       Ingresar
     </ion-button>
-    <ion-text [routerLink]="['/ingresar']" color="primary">
-    <h1 class="ion-text-center">Restablecer contraseña</h1>
-  </ion-text>
 
 </ion-content>
