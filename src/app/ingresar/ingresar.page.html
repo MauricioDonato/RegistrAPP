@@ -14,15 +14,28 @@
     <ion-label>Nombre de alumno:</ion-label>
     <ion-input placeholder="Ej: Joshua Ramirez" #nombre></ion-input>
   </ion-item>
-  
+
   <ion-item>
-    <ion-label >contraseña:</ion-label>
-    <ion-input type="password" placeholder="contraseña" #contraseña></ion-input>
+    <ion-label>Contraseña:</ion-label>
+    <ion-input type="password" placeholder="*****" #contraseña></ion-input>
   </ion-item>
 
-    <br><br>
-    <ion-button expand="block" shape="round" >
-      Ingresar
-    </ion-button>
+  <br><br>
+  <ion-grid fixed>
+    <ion-row>
+      <ion-col size="6">
+        <ion-button  color="secondary" expand="block" fill="solid" shape="round">
+          Ingresar
+        </ion-button>
+      </ion-col>
+      <ion-col size="6">
+        <ion-button size="6"  color="secondary" expand="block" fill="solid" shape="round">
+          Recuperar contraseña
+        </ion-button>
+      </ion-col>
+    </ion-row>
+  </ion-grid>
+
+
 
 </ion-content>
