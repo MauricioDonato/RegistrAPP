@@ -13,11 +13,14 @@
   </ion-text>
   <ion-item>
     <ion-label>email:</ion-label>
-    <ion-input placeholder="Ej: Joshua1234" #nombre></ion-input>
+    <ion-input placeholder="Ej: Joshua1234@gmail.com" #correo></ion-input>
   </ion-item>
-  <ion-button expand="block" color="success" shape="round">
-    Ingresar
+  <ion-button expand="block"  (click)="restablecer(correo)" color="success" shape="round">
+    Restablecer contraseña
   </ion-button>
+  <ion-text [routerLink]="['/ingresar']" color="primary">
+    <h1 class="ion-text-center">Volver al ingreso</h1>
+  </ion-text>
 
 
 </ion-content>
