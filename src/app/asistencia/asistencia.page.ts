@@ -6,6 +6,12 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./asistencia.page.scss'],
 })
 export class AsistenciaPage implements OnInit {
+  nombre : string;
+  lista : [];
+  listado = [
+    { id : '1',
+      nombre: 'Joshua Ramirez',
+    }];
 
   constructor() { }
 
